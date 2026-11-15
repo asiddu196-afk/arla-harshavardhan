@@ -1,3 +1,7 @@
+import learnloopImg from '../assets/images/learnloop_showcase_1794764664974.jpg';
+import promptcraftImg from '../assets/images/promptcraft_showcase_1794764666125.jpg';
+import studyflowImg from '../assets/images/studyflow_showcase_1794764666823.jpg';
+
 export type SkillCategory = 'Programming' | 'AI & Emerging Tech' | 'Development';
 
 export interface SkillItem {
@@ -196,7 +200,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
       { step: 'Improve', detail: 'Identify weak spots automatically and close knowledge gaps over time.' },
     ],
     stack: ['Python', 'Generative AI', 'Prompt Engineering', 'Web Development'],
-    imageUrl: '/src/assets/images/learnloop_showcase_1794764664974.jpg',
+    imageUrl: learnloopImg,
     imageAlt: 'Futuristic holographic network illustrating the LearnLoop AI learning ecosystem',
     architectureNote:
       'Designed around a modular document-ingestion pipeline paired with context-grounded prompt templates and an adaptive challenge engine.',
@@ -216,7 +220,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
       'Side-by-side output logging for iterative prompt refinement',
     ],
     stack: ['Python', 'Prompt Engineering', 'AI Tools'],
-    imageUrl: '/src/assets/images/promptcraft_showcase_1794764666125.jpg',
+    imageUrl: promptcraftImg,
     imageAlt: 'Isometric dark metallic modular pipeline representing PromptCraft CLI architecture',
     architectureNote:
       'Pure Python CLI architecture focusing on zero-friction local experimentation and clean structured output inspection.',
@@ -236,7 +240,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
       'Clean Markdown export for rapid revision sessions',
     ],
     stack: ['Python', 'AI Automation', 'Generative AI'],
-    imageUrl: '/src/assets/images/studyflow_showcase_1794764666823.jpg',
+    imageUrl: studyflowImg,
     imageAlt: 'Optical glass prism refracting light streams into structured cards for StudyFlow Automator',
     architectureNote:
       'Demonstrates sequential prompt orchestration where extracted key terms feed directly into question-generation passes.',
